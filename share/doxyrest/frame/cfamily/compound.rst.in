@@ -47,10 +47,17 @@ local hasDetails =
 
 if hasDetails then
 }
+
+%{
+if compound.compoundKind ~= "group" then
+}
 Overview
 ~~~~~~~~
 
 $(getItemBriefDocumentation(compound))
+%{
+end -- if
+}
 
 %{
 else
