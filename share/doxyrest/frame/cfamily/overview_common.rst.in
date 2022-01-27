@@ -23,7 +23,7 @@ if omitSemicolon then
 	semicolon = ""
 end
 }
-	// $sectionName
+	/* $sectionName */
 
 %{
 local isPrevMl = false

@@ -15,7 +15,7 @@ local compound = argArray[1]
 local itemArray = argArray[2]
 local sectionName = argArray[3]
 }
-	// $sectionName
+	/* $sectionName */
 
 %{
 local isPrevMl = false

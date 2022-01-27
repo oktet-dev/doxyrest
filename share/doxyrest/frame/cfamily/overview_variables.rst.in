@@ -18,7 +18,7 @@ local unnamedStack = {}
 local unnamedStackSize = 0
 local isLastUnnamed = false
 }
-	// $sectionName
+	/* $sectionName */
 
 %{
 local i = 1
