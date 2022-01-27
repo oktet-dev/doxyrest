@@ -96,7 +96,13 @@ end
 
 if hasDetails then
 }
+%{
+if compound.compoundKind ~= "group" then
+}
 .. _details-$(compound.id):
+%{
+end -- if
+}
 
 Detailed Documentation
 ~~~~~~~~~~~~~~~~~~~~~~
