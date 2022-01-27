@@ -21,7 +21,7 @@ pre.doxyrest-overview-inherited-code-block {
 }
 
 pre.doxyrest-title-code-block {
-	font-size: larger !important;
+	font-size: 90% !important;
 	border: none !important;
 	border-top: solid #ccc !important;
 	background-color: #f0f0f0 !important;
